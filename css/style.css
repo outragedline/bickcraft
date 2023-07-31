@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  margin-top: 60px;
+  justify-content: center;
+  display: grid;
+  gap: 30px;
+  background: #f7f7f7;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}
+
+#logo {
+  justify-self: center;
+}
+
+#menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.menu-item {
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000;
+}
+
+#content {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#introduction {
+  display: grid;
+  gap: 20px;
+  justify-items: end;
+  text-align: right;
+  align-content: center;
+  padding: 15px 40px;
+  background: #fff;
+}
+
+#more {
+  background: #e21;
+  place-self: start end;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#subtitle {
+  color: #c6c6c6;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: end;
+  align-self: center;
+  padding: 15px 30px;
+}
+
+#vantagens {
+  display: grid;
+  padding: 30px 40px;
+  gap: 20px;
+  background: #fff;
+}
+
+.vantagens-item {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+#footer {
+  display: grid;
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+}
